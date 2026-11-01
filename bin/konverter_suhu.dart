@@ -60,7 +60,13 @@ void main() {
       break;
 
     default:
-      print('Pilihan tidak valid. Run ulang programnya.');
+      print('Opsi tidak valid. Run ulang programnya.');
       return;
   }
+
+  print('Hasil Convert');
+  if (opsi != '1') print('$suhu derajat = $celcius derajat celcius');
+  if (opsi != '2') print('$suhu derajat = $fahrenheit derajat fahrenheit');
+  if (opsi != '3') print('$suhu derajat = $reamur derajat reamur');
+  if (opsi != '4') print('$suhu derajat = $kelvin derajat kelvin');
 }
