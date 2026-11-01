@@ -1,15 +1,6 @@
 import 'package:konverter_suhu/konverter_suhu.dart' as konverter_suhu;
 import 'dart:io';
 
-/*
-void main() {
-  stdout.write('1. Masukkan suhu dalam Fahrenheit: ');
-  var fahrenheit = num.parse(stdin.readLineSync()!);
-  var celcius = (fahrenheit - 32) * 5 / 9;
-  print('$fahrenheit derajat Fahrenheit = $celcius derajat celcius');
-}
-*/
-
 void main() {
   print('Alat Konversi Suhu');
   print('Pilih jenis suhu asal: ');
